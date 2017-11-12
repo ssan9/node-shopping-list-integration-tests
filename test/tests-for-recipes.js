@@ -47,7 +47,7 @@ describe('Recipes', function() {
 	  	.then(function(res) {
 	  		res.should.have.status(200);
 	  		res.should.be.json;
-	  		res.body.should.be.a('array');
+	  		res.body.should.be.an('array');
 
 	  		//because we create three items on app load
 	  		res.body.length.should.be.at.least(1);
@@ -55,7 +55,7 @@ describe('Recipes', function() {
 	  		// for `id`, `name` and `ingredients`.
 	  		const expectedKeys = ['id', 'name', 'ingredients'];
 	  		res.body.forEach(function(item) {
-	  			item.should.be.a('object');
+	  			item.should.be.an('object');
 	  			item.should.include.keys(expectedKeys);
 	  		});
 	  	});
@@ -73,7 +73,7 @@ describe('Recipes', function() {
 		.then(function(res) {
 			res.should.have.status(201);
 			res.should.be.json;
-			res.body.should.be.a('object');
+			res.body.should.be.an('object');
 			res.body.should.include.keys('id', 'name', 'ingredients');
 			res.body.id.should.not.be.null;
 			// response should be deep equal to `newItem` from above if we assign
@@ -113,7 +113,7 @@ describe('Recipes', function() {
 		  		.put(`/recipes/${updateData.id}`)
 		  		.send(updateData);
 		  	})
-		  //prove that the PUT request has right status code
+		  //prove that the PUT request has right status cosde
 		  .then(function(res) {
 		  	res.should.have.status(204);
 		  });
