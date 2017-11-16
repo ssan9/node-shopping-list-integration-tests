@@ -1,4 +1,3 @@
-
 var shoppingItemTemplate = (
   '<li class="js-shopping-item">' +
     '<p><span class="shopping-item js-shopping-item-name"></span></p>' +
