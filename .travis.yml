@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: BfMC6isAz+DcGWyuD4o9nhM0zbHJycI26ny6t1CfZsXLsF2nJsMRgeBYom5kR1hXM4dnmRpALSUJ0JzvfKKOeW7M7TqFDAyvy3D+PZ8v9pssa58wTOqKtaMranOEr6esHjEDz0Lb8WVmirvJ+EfFseI+Zt8ztoTAdB8Kfb9H3MhzAYUVlrgO4VIaE1au2riMVHfnexdKEv+BxNjwTOclugDH+/aZZAda2WwKKK2TkXg4Mtgfl8q/uJMslwLZ7RqMm0xDqJJ1x5Hfmoz7YdMhJVT7t4ku7Nhh2S6IXh+ccoYywC9Bg86UbED9g29oT6Z4UrnS6CAJOPfhBp7/phknalS4Zy60GvnAXvt4qIYqYKLem09rh96tW+gUI5L0wNl4ijvqJMGwZQbteRjKCjiVM8FLm3AK5AOMTUyWD2sbhAWdLMGE3hkHz0b6jUWlFC0fWsPg3qTcRTZfjy25flQNHrjlWO4gYQc4tkoM5B7TF+qk7lOo6tY6uo5niPptDZT0jpo2LuasJAYJYelobJcR6DWdBxX/ZhhKhNoXPKotmaaCM5jYMRYU7GZ+JG7rqdA60YXuBZa84N9FXtGxOgpWRqu7Sf1pWg9Aw4XTCPoHV63iZG5rvgd5bDrDOVaRmi8aHzw0EZOQzk3w6bZ2nOBx7eFCEJCsuwC9c3/DHoBvqEs=
-  app: floating-cove-28286
+  app: https://git.heroku.com/floating-cove-28286.git
   on:
     repo: ssan9/node-shopping-list-integration-tests
